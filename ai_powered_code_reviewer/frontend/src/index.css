@@ -1,0 +1,36 @@
+:root {
+  --background: #F9F8FC;
+  --primary: #DCEBFA;
+  --lavender: #E9E2F8;
+  --pink: #F8E1E7;
+  --success: #E1F0E8;
+  --text: #343247;
+  --white: #FFFFFF;
+}
+
+html {
+  min-width: 360px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-width: 360px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #ffffff;
+  background: #6e56cf;
+}
+
+body {
+  background-color: #E9E2F8 ;
+  color: #343247;
+}
