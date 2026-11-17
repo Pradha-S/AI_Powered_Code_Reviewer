@@ -296,7 +296,7 @@ function App() {
               <strong>Ready when you are</strong>
               <p>Run Analyze Code to see potential bugs and improvements.</p>
             </div>
-          ) : results.error ? (
+          ) : results.error && !results.issues.length ? (
             <div className="empty-state">
               <strong>Nothing to analyze yet</strong>
               <p>{results.error}</p>
